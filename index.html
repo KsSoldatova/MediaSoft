@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="wodth=device-width, initial-scale=1.0"> -->
+    <title>Alowishus</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+</head>
+
+
+<body>
+    <div class="group-1">
+        <nav class="nav">
+            <img src="images/logo.png" alt="" class="header_logo">
+            <a href="#" class="nav_item">Cafe Menu</a>
+            <a href="#" class="nav_item">About Us</a>
+            <a href="#" class="nav_item">Find Us</a>
+            <a href="#" class="nav_item">Alowishus Catering</a>
+            <a href="#" class="nav_item-1"><img src="images/bxs-basket 1.png" alt="" class="bxs-basket"> </a>
+            <a href="#" class="nav_item-2">BUY GIFT VOUCHERS</a>
+        </nav>
+    </div>
+        <div class="group-2">
+            <div class="frame-7">
+                <h1>Alowishus Delicious Coffee</h1>
+                <p class="text-1">A drink from the ‘My Alowishus’ bottled brews range OR grab one of our delicious coffee’s.</p>
+                <a href="#" class="link-1">DOWNLOAD APP</a>
+                <a href="#" class="link-2"> SHOP COFFEE</a>
+            </div>
+            <div class="pic">
+                <img src="images/Group 7.png">
+                <!-- <img src="images/image 3.png" alt="" class="award">
+                <img src="images/Group 7.png" alt="" class="cup">
+                <div class="review">
+                    <img src="images/Frame 18.png" alt="" class="stars">
+                    <p class="txt1">4.9 out of 5 Overall Star Rating for All Local Business.</p>
+                </div> -->
+            </div>
+        </div>
+   
+        <div class="group-3">
+            <div class="frame-2">
+                <h2>Explore Our Alowishus</h2>
+            <p class="text-12">A drink from the ‘My Alowishus’ bottled brews 
+                range OR grab one of our delicious coffee’s.</p>
+            </div>
+            <div class="cards">
+                <div class="card-item">
+                    <h3>Our Catering</h3>
+                    <p class="text-13">Alowishus Catering, delicious drop off Catering</p>
+                    <img src="images/food.png" alt="" class="food">
+                    <a href="#" class="link-1">ORDER CATERING</a> 
+                </div>
+                <div class="card-item">
+                    <h3>The Food</h3>
+                    <p class="text-13">Our entire menu is available as dine in or takeaway.</p>
+                    <img src="images/fast-food.png" alt="" class="food">
+                    <a href="#" class="link-1">FOOD MENU</a> 
+                </div>
+                <div class="card-item">
+                    <h3>The Gelato</h3>
+                    <p class="text-13">Life is like GELATO, enjoy it before it melts.</p>
+                    <img src="images/ice-cream.png" alt="" class="food">
+                    <a href="#" class="link-1">DISCOVER MORE</a> 
+                </div>
+            </div>
+        </div>
+        <div class="group-4">
+            <img src="images/Group 21.png" alt="">
+            <div class="coffee-text">
+                <h2 class="coffee">Order Your Favourite Coffee</h2>
+                <p class="txt-coffee">Amet minim mollit non deserunt ullamco est sit 
+                aliqua dolor do amet sint. Velit officia consequat 
+                duis enim velit mollit. Exercitation veniam consequat 
+                sunt nostrud amet.</p>
+                <a href="#" class="link-1">ORDER NOW</a>
+            </div>
+        </div>
+        <div class="group-5">
+            <h2 class="custom">What Our Customers Say</h2>
+            <div class="general">
+                <p class="grade">4.9</p>
+                <div class="grade-2">
+                    <img src="images/Frame 32.png" alt="" class="stars2">
+                    <p class="txt-grade">based on 2452+ reviews</p>
+                </div>
+            </div>
+        </div>
+        <div id="carousel">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="carousel-item swiper-slide">
+                  <img src="images/G1.png" class="G1">
+                  <h4>Brooklyn Simmons <img src="images/Frame 32.png" alt="" class="stars2"></h4>
+                  <p class="rev">“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”</p>
+                </div>
+                <div class="carousel-item swiper-slide">
+                  <img src="images/G2.png" alt="" class="G1">
+                  <h4>Imam White <img src="images/Frame 32.png" alt="" class="stars2"></h4>
+                  <p class="rev">“Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia”</p>
+                </div>
+              </div>
+              <div class="swiper-button-prev" id="prev">
+                <img src="images/arrow-left.png" class="arrow">
+              </div>
+              <div class="swiper-button-next" id="next">
+                <img src="images/arrow-right.png" class="arrow right">
+              </div>
+            </div>
+          </div>
+          
+          <script>
+            const swiper = new Swiper('.swiper', {
+              // Optional parameters
+              direction: 'horizontal',
+              loop: true,
+              slidesPerView: 1, // отображать 2 слайда сразу
+              spaceBetween: 10, // расстояние между слайдами
+          
+              // Navigation arrows
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          </script>
+        <div class="group-6">
+            <div class="frame-43"> 
+                <img src="images/image 2.png" alt="" class="logo">
+                <p class="text-footer">We made it our mission to 
+                    create community everyday and grow meaningful, 
+                    lasting relationships with our staff, our 
+                    suppliers and of course you, our customers.</p>
+            </div>
+            <div class="contacts">
+                <h3>Contact Alowishus!</h3>
+                <div class="con1">
+                    <img src="images/email.svg" class="icons">
+                    <p>allowishus@gmai.com</p>
+                </div>
+                <div class="con1">
+                    <img src="images/phone.svg" class="icons">
+                    <p>+110 214 214 2451</p>
+                </div>
+                <div class="icons1">
+                    <a href="#"><img src="images/facebook.svg" class="icons"></a>
+                    <a href="#"><img src="images/instagram.svg" class="icons"></a>
+                    <a href="#"><img src="images/twitter.svg" class="icons"></a>
+                    <a href="#"><img src="images/linkedin.svg" class="icons"></a>
+                </div>
+            </div>
+            <div class="SL">
+                <h3>Store Location</h3>
+                <p>Find your nearest Alowishus 
+                    store with opening hours, location and contact details.</p>
+                <div class="footer-link">
+                    <a href="#" class="h5-link"><h5>FIND MY ALOWISHUS</h5></a>
+                    <img src="images/arrow-right.png">
+                </div>  
+            </div>
+            <div class="email">
+                <h3>First One's On Us!</h3>
+                <input id="email"  type="email" name="email" placeholder="Email">
+                <a href="#" class="link-1">SUBSCRIBE</a>
+            </div>
+            <img src="images/Line 2.png" class="line">
+        </div>
+        <footer>
+            <p>Copyright © 2022 <b>Alowishus Delicious</b></p>
+            <div class="PP">
+                <a href="#">Terms of Use &nbsp;|</a>
+                <a href="#">&nbsp; Privacy Policy</a>
+            </div>
+        </footer>
+</body>
+
+</html>
