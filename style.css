@@ -23,7 +23,9 @@
     font-style: normal;
 } */
 
-* { box-sizing: border-box;}
+* { 
+    box-sizing: border-box;
+}
 
 body {
     background-color:#FFFFFF;
@@ -103,10 +105,9 @@ nav {
     background-color: #EEEFF1;
 }
 .frame-7 {
-    padding-left: 100px;
     width: 626px;
     height: 650px;
-    padding: 0px 29px 0px 0px;
+    padding: 0px 29px 100px 0px;
     z-index: 3;
 }
 
