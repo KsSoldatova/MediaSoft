@@ -99,12 +99,13 @@ nav {
 .group-2{
     display: flex;
     align-items: center;
-    justify-content:space-ev;
+    justify-content:space-evenly;
     flex-wrap: wrap;
     padding-bottom: 130px;
     background-color: #EEEFF1;
 }
 .frame-7 {
+
     width: 626px;
     height: 650px;
     padding: 0px 29px 100px 0px;
@@ -157,7 +158,7 @@ h1 {
     margin:0;
     font-size: 19px;
 }
-.review {
+/* .review {
     z-index: 6;
     position: absolute;
     top: 110px;
@@ -171,22 +172,22 @@ h1 {
     font-size: 19px;
     font-weight: 400;
     line-height: 26px;
-}
+} */
 .pic {
 z-index: 2;
 }
-.cup{
+/* .cup{
 position: absolute;
 bottom:10px;
 right: 150px;
-}
+} */
 
-.award {
+/* .award {
     position: absolute;
     left: 500px;
     top: -280px;
     z-index: 3;
-}
+} */
 
 .group-3 {
     margin:0;
