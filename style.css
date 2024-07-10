@@ -23,12 +23,6 @@
     font-style: normal;
 } */
 
-@media (max-width: 768px) {
-.line {
-    width: 768px;
-}
-}
-
 * { 
     box-sizing: border-box;
 }
@@ -509,8 +503,10 @@ footer a {
     color:#64646A;
     text-decoration: none;
 }
-.line {
-    margin-top: 40px;
+hr {
+    color:#64646A;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 a:hover {
